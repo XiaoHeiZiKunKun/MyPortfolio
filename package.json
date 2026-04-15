@@ -5,7 +5,7 @@
   "main": "next.config.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next build --webpack",
+    "build": "next build", 
     "start": "next start",
     "lint": "next lint"
   },
@@ -13,17 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/XiaoHeiZiKunKun/MyPortfolio.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/XiaoHeiZiKunKun/MyPortfolio/issues"
-  },
-  "homepage": "https://github.com/XiaoHeiZiKunKun/MyPortfolio#readme",
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
