@@ -1,9 +1,13 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
+import { useState } from 'react';
 
 export default function HomePage() {
  
+  const [loading, setLoading] = useState(false); 
+  const [error, setError] = useState(false);
+
   const router = useRouter();
   const vaiProdotti = () => router.push('/progetti');
 
