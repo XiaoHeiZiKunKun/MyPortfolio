@@ -17,14 +17,14 @@ export default function HomePage() {
               <span style={{color: 'white', fontWeight: 'bold'}}>AC</span>
             </div>
           </div>
-          <h2 style={{color: 'white'}}>Artur Carter</h2>
-          <p style={{fontSize: '11px', opacity: 0.6}}>FRONT-END DEVELOPER</p>
+          <h2 style={{color: 'white'}}>Tommaso Rao</h2>
+          <p style={{fontSize: '11px', opacity: 0.6}}>Computer engineer</p>
         </div>
 
         <div className="info-list">
           <div className="info-item"><span>Residenza:</span><span>Italia</span></div>
-          <div className="info-item"><span>Città:</span><span>Milano</span></div>
-          <div className="info-item"><span>Età:</span><span>28</span></div>
+          <div className="info-item"><span>Città:</span><span>Trieste</span></div>
+          <div className="info-item"><span>Età:</span><span>23</span></div>
         </div>
       </aside>
 
@@ -45,7 +45,7 @@ export default function HomePage() {
 
         <h3>I miei servizi</h3>
         <div className="services-grid">
-          {['Web Development', 'UI/UX Design', 'Sound Design'].map(service => (
+          {['Curriculum Vitae', 'Progetti Personali', 'Certificati'].map(service => (
             <div key={service} className="service-card">
               <h4>{service}</h4>
               <p>Soluzioni moderne e scalabili per ogni tipo di progetto digitale.</p>
