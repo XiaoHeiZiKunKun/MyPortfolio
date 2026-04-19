@@ -45,20 +45,20 @@ export default function HomePage() {
 
         <h3>I miei servizi</h3>
         <div className="services-grid">
-          <div key={'curriculum'} className="service-card">
+          <div key={'curriculum'} className="service-card" onClick={() => router.push('/curriculum')}>
               <h4>Curriculum Vitae</h4>
               <p>Visita il mio curriculum vitae.</p>
-              <a href="#" className="order-link">Curriculum &gt;</a>
+              <a href="/curriculum" className="order-link">Curriculum &gt;</a>
             </div>
-            <div key={'progetti'} className="service-card">
+            <div key={'progetti'} className="service-card" onClick={() => router.push('/progetti')}>
               <h4>Progetti Personali</h4>
               <p>Visita i miei progetti personali.</p>
-              <a href="#" className="order-link">Progetti &gt;</a>
+              <a href="/progetti" className="order-link">Progetti &gt;</a>
             </div>
-            <div key={'certificati'} className="service-card">
+            <div key={'certificati'} className="service-card" onClick={() => router.push('/certificati')}>
               <h4>Certificati</h4>
               <p>Visita i miei certificati.</p>
-              <a href="#" className="order-link">Certificati &gt;</a>
+              <a href="/certificati" className="order-link">Certificati &gt;</a>
             </div>
         </div>
 
