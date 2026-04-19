@@ -45,13 +45,21 @@ export default function HomePage() {
 
         <h3>I miei servizi</h3>
         <div className="services-grid">
-          {['Curriculum Vitae', 'Progetti Personali', 'Certificati'].map(service => (
-            <div key={service} className="service-card">
-              <h4>{service}</h4>
-              <p>Soluzioni moderne e scalabili per ogni tipo di progetto digitale.</p>
-              <a href="#" className="order-link">Ordina Ora &gt;</a>
+          <div key={'curriculum'} className="service-card">
+              <h4>Curriculum Vitae</h4>
+              <p>Visita il mio curriculum vitae.</p>
+              <a href="#" className="order-link">Curriculum &gt;</a>
             </div>
-          ))}
+            <div key={'progetti'} className="service-card">
+              <h4>Progetti Personali</h4>
+              <p>Visita i miei progetti personali.</p>
+              <a href="#" className="order-link">Progetti &gt;</a>
+            </div>
+            <div key={'certificati'} className="service-card">
+              <h4>Certificati</h4>
+              <p>Visita i miei certificati.</p>
+              <a href="#" className="order-link">Certificati &gt;</a>
+            </div>
         </div>
 
       </main>
